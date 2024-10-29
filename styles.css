@@ -348,3 +348,148 @@ body, html {
     }
 
 }
+
+@media (max-width: 700px) {
+    body, html {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .middle h1 {
+        font-size: 4em;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .middle h2 {
+        font-size: 3em; /* Adjust size as needed */
+        font-weight: 100;
+        margin: 0;
+        padding: 0;
+        line-height: 1; /* Ensures no extra space within the line */
+        margin-top: -0.2em; /* Use negative margin to bring it closer */
+    }
+
+    .divider {
+        width: 50px;
+    }
+
+    .phone {
+        font-size: 1.5em;
+        font-weight: 200;
+        line-height: 0;
+    }
+    
+    .hebrew {
+        font-size: 1.5em; /* Adjust size as needed */
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 200;
+        line-height: 1;
+    }
+
+    .top, .bottom {
+        height: 0vh;
+        background-color: white;
+    }
+
+    .middle {
+        height: 100vh;
+    }
+
+    .iframe-container {
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap into the next line */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .black-and-white {
+        filter: grayscale(0%);
+    }
+    
+    .black-and-white:hover {
+        filter: grayscale(0%);
+    }
+
+    .iframe {
+        width: 80%;
+        height: 130px;
+        margin: 15px;
+        margin-bottom: 10px; /* Space between rows */
+    }
+
+}
+
+@media (max-width: 400px) {
+    body, html {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .middle h1 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .middle h2 {
+        font-size: 3em; /* Adjust size as needed */
+        font-weight: 100;
+        margin: 0;
+        padding: 0;
+        line-height: 1; /* Ensures no extra space within the line */
+        margin-top: -0.2em; /* Use negative margin to bring it closer */
+    }
+
+    .divider {
+        width: 50px;
+    }
+
+    .phone {
+        font-size: 1.5em;
+        font-weight: 200;
+        line-height: 0;
+    }
+    
+    .hebrew {
+        font-size: 1.5em; /* Adjust size as needed */
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 200;
+        line-height: 1;
+    }
+
+    .top, .bottom {
+        height: 0vh;
+        background-color: white;
+    }
+
+    .middle {
+        height: 130vh;
+    }
+
+    .iframe-container {
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap into the next line */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .black-and-white {
+        filter: grayscale(0%);
+    }
+    
+    .black-and-white:hover {
+        filter: grayscale(0%);
+    }
+
+    .iframe {
+        width: 80%;
+        height: 130px;
+        margin: 15px;
+        margin-bottom: 10px; /* Space between rows */
+    }
+
+}
