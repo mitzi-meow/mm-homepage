@@ -83,6 +83,7 @@ body, html {
 .middle h1 {
     font-size: 8em;
     font-weight: 100;
+    margin-bottom: 0;
     padding: 0;
     display: inline; /* Ensure it does not add extra spacing */
     line-height: 1; /* Ensures no extra space within the line */
@@ -127,8 +128,6 @@ body, html {
 
 @media (max-width: 1080px) {
     body, html {
-        margin-top: 5;
-        height: 100%;
         font-family: 'Roboto', sans-serif;
     }
 
@@ -168,7 +167,7 @@ body, html {
     }
 
     .middle {
-        height: 100vh;
+        height: 120vh;
     }
 
     .iframe-container {
