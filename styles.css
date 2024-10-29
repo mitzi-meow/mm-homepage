@@ -40,7 +40,6 @@ body, html {
     height: 80vh;
     background-color: black;
     color: white;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,19 +129,166 @@ body, html {
     z-index: 0;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1170px) {
     body, html {
         font-family: 'Roboto', sans-serif;
     }
 
     .middle h1 {
-        font-size: 4em;
+        font-size: 10em;
         margin: 0px;
         padding: 0px;
     }
 
     .middle h2 {
+        font-size: 6em; /* Adjust size as needed */
+        font-weight: 100;
+        margin: 0;
+        padding: 0;
+        line-height: 1; /* Ensures no extra space within the line */
+        margin-top: -0.2em; /* Use negative margin to bring it closer */
+    }
+
+    .divider {
+        width: 50px;
+    }
+
+    .phone {
+        font-size: 3em;
+        font-weight: 200;
+        line-height: 0;
+    }
+    
+    .hebrew {
         font-size: 3em; /* Adjust size as needed */
+        margin-top: 4px;
+        margin-bottom: 0px;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 100;
+        line-height: 2;
+    }
+
+    .top, .bottom {
+        height: 0vh;
+        background-color: white;
+    }
+
+    .middle {
+        height: 100vh;
+    }
+
+    .iframe-container {
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap into the next line */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .black-and-white {
+        filter: grayscale(0%);
+    }
+    
+    .black-and-white:hover {
+        filter: grayscale(0%);
+    }
+
+    .iframe {
+        width: 90%;
+        height: 140px;
+        margin: 35px;
+        margin-bottom: 10px; /* Space between rows */
+    }
+
+}
+
+@media (max-width: 915px) {
+    body, html {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .middle h1 {
+        font-size: 8em;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .middle h2 {
+        font-size: 6em; /* Adjust size as needed */
+        font-weight: 100;
+        margin: 0;
+        padding: 0;
+        line-height: 1; /* Ensures no extra space within the line */
+        margin-top: -0.2em; /* Use negative margin to bring it closer */
+    }
+
+    .divider {
+        width: 50px;
+    }
+
+    .phone {
+        font-size: 3em;
+        font-weight: 200;
+        line-height: 0;
+    }
+    
+    .hebrew {
+        font-size: 3em; /* Adjust size as needed */
+        margin-top: 4px;
+        margin-bottom: 0px;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 100;
+        line-height: 2;
+    }
+
+    .top, .bottom {
+        height: 0vh;
+        background-color: white;
+    }
+
+    .middle {
+        height: 100vh;
+    }
+
+    .iframe-container {
+        display: flex;
+        flex-wrap: wrap; /* Allows items to wrap into the next line */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .black-and-white {
+        filter: grayscale(0%);
+    }
+    
+    .black-and-white:hover {
+        filter: grayscale(0%);
+    }
+
+    .iframe {
+        width: 90%;
+        height: 140px;
+        margin: 35px;
+        margin-bottom: 10px; /* Space between rows */
+    }
+
+}
+
+
+@media (max-width: 786px) {
+    body, html {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .middle h1 {
+        font-size: 6em;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .middle h2 {
+        font-size: 4em; /* Adjust size as needed */
         font-weight: 100;
         margin: 0;
         padding: 0;
@@ -175,7 +321,7 @@ body, html {
     }
 
     .middle {
-        height: 120vh;
+        height: 100%;
     }
 
     .iframe-container {
