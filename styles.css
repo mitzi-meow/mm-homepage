@@ -57,7 +57,7 @@ body, html {
     position: relative;
     z-index: 1;
     text-align: center;
-    font: "Noto Sans Hebrew";
+
     font-weight: 100;
 }
 
@@ -65,24 +65,35 @@ body, html {
     font-size: 8em;
     font-weight: 100;
     margin: 0;
+    padding: 0;
+    display: inline; /* Ensure it does not add extra spacing */
+    line-height: 1; /* Ensures no extra space within the line */
 }
 
-.middle smalltext {
-    font-size: 3em;
+.middle h2 {
+    font-size: 5em; /* Adjust size as needed */
     font-weight: 100;
     margin: 0;
+    padding: 0;
+    line-height: 1; /* Ensures no extra space within the line */
+    margin-top: -0.2em; /* Use negative margin to bring it closer */
 }
 
-.middle p {
-    font-size: 3em;
+.phone {
+    font-size: 2em;
     font-weight: 200;
     margin: 0;
+    padding: 0;
+    line-height: 0;
 }
 
 .hebrew {
-    font-size: 3em;
+    font-size: 2em; /* Adjust size as needed */
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: "IBM Plex Sans Hebrew", sans-serif;
     font-weight: 200;
-    margin: 0;
+    line-height: 1;
 }
 
 .image-placeholder {
@@ -115,20 +126,39 @@ body, html {
         align-items: center;
         margin-top: 20px;
     }    
+
+    
 }
 
 @media (max-width: 480px) {
     .middle h1 {
         font-size: 4em;
-        margin: 5px;
+        margin: 0px;
+        padding: 0px;
     }
 
-    .middle p {
-        font-size: 1.5em;
+    .middle h2 {
+        font-size: 3em; /* Adjust size as needed */
+        font-weight: 100;
+        margin: 0;
+        padding: 0;
+        line-height: 1; /* Ensures no extra space within the line */
+        margin-top: -0.2em; /* Use negative margin to bring it closer */
     }
 
-    .smalltext {
-        font-size: 1em;
+    .phone {
+        font-size: 0.5em;
+        font-weight: 200;
+        line-height: 0;
+    }
+    
+    .hebrew {
+        font-size: 1.5em; /* Adjust size as needed */
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-family: "IBM Plex Sans Hebrew", sans-serif;
+        font-weight: 200;
+        line-height: 1;
     }
 
     .top, .bottom {
@@ -146,11 +176,10 @@ body, html {
         width: 100%;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
     }
     
     .black-and-white {
-        filter: grayscale(100%);
+        filter: grayscale(0%);
     }
     
     .black-and-white:hover {
