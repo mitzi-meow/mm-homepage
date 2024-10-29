@@ -428,12 +428,13 @@ body, html {
     }
 
     .middle h1 {
+        font-size: 3em;
         margin: 0px;
         padding: 0px;
     }
 
     .middle h2 {
-        font-size: 3em; /* Adjust size as needed */
+        font-size: 2em; /* Adjust size as needed */
         font-weight: 100;
         margin: 0;
         padding: 0;
@@ -446,13 +447,14 @@ body, html {
     }
 
     .phone {
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: 200;
         line-height: 0;
+        margin-bottom: 0px;
     }
     
     .hebrew {
-        font-size: 1.5em; /* Adjust size as needed */
+        font-size: 1.2em; /* Adjust size as needed */
         margin-top: 2px;
         margin-bottom: 0px;
         font-family: "IBM Plex Sans Hebrew", sans-serif;
