@@ -98,6 +98,10 @@ body, html {
     margin-top: -0.2em; /* Use negative margin to bring it closer */
 }
 
+.divider {
+    width: 100px;
+}
+
 .phone {
     font-size: 2em;
     font-weight: 200;
@@ -144,6 +148,10 @@ body, html {
         padding: 0;
         line-height: 1; /* Ensures no extra space within the line */
         margin-top: -0.2em; /* Use negative margin to bring it closer */
+    }
+
+    .divider {
+        width: 50px;
     }
 
     .phone {
